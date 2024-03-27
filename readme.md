@@ -1,0 +1,1 @@
+Discontinued in favour of JavaScript because a Golang official TON RPC SDK isn't available yet:(.
