@@ -1,0 +1,29 @@
+# .air.toml
+
+# Entrypoint file
+[build]
+  # Provide the entry point file of your application.
+  # It will be used to rerun the application on changes if provided.
+  # dir = "."         # (default)
+  # files = ["*.go"]  # (default)
+  # exclude = []      # (default)
+
+# Config options
+[options]
+  # go run or go build (default is "run")
+  go_args = "run"
+
+  # (optional) .env file path
+  # env_file = ".env"
+
+  # (optional) command to run before build (ignored for 'run' command)
+  # pre_build = ["make lint"]
+
+  # (optional) command to run after build (ignored for 'run' command)
+  # post_build = ["echo 'Build finished!'"]
+
+  # (optional) stop the process gracefully on the first signal (before restarting)
+  # stop_on_error = false
+
+  # (optional) custom configuration
+  # see more: https://github.com/cosmtrek/air#config
